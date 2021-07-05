@@ -1,0 +1,6 @@
+<script>
+var arr=document.getElementsByClassName("submit-row");
+for(var j=0,len=arr.length; j < len; j++) {
+  arr[j].remove();
+}
+</script>

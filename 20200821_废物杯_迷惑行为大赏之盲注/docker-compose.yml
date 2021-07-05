@@ -1,0 +1,9 @@
+version: "3"
+services:
+  mhxw_mz:
+    build: .
+    ports:
+      - "10800:80"
+    container_name: mhxw_mz
+    environment:
+      - FLAG=flag{88888888-8888-8888-8888-888888888888}
